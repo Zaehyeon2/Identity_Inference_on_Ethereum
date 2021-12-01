@@ -10,10 +10,10 @@ This paper discusses an attack scenario that infers identity in a blockchain-bas
 
 The codebase is implemented in Python 3.7.10.
 ```
-pickle			  3.10.0
-networkx		  2.5
-karateclub		1.2.2
-scikit-learn	0.23.2
+pickle  3.10.0
+networkx  2.5
+karateclub  1.2.2
+scikit-learn  0.23.2
 ```
 
 ### Dataset
