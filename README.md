@@ -42,9 +42,9 @@ In the root path, you need four folders of Second-order Transaction Network of P
 
 ```
 
---graph			  STR		Order of transaction graphs(first, second).			    	Default is 'first'
---embedding		STR		Embedding algorithms(Feather-G, Graph2Vec, GL2Vec).		Default is 'Feather-G'.
---classifier	STR		Classifier(SVM, MLP, RF).								              Default is 'RF'.
+--graph       STR   Order of transaction graphs(first, second).           Default is 'first'
+--embedding   STR   Embedding algorithms(Feather-G, Graph2Vec, GL2Vec).   Default is 'Feather-G'.
+--classifier  STR   Classifier(SVM, MLP, RF).                             Default is 'RF'.
 ```
 
 ### Example
