@@ -10,11 +10,10 @@ This paper discusses an attack scenario that infers identity in a blockchain-bas
 
 The codebase is implemented in Python 3.7.10.
 ```
-pickle			3.10.0
-networkx		2.5
+pickle			  3.10.0
+networkx		  2.5
 karateclub		1.2.2
 scikit-learn	0.23.2
-glob
 ```
 
 ### Dataset
@@ -41,9 +40,9 @@ In the root path, you need four folders of Second-order Transaction Network of P
 ### Option
 
 ```
---graph			STR		Order of transaction graphs(first, second).				Default is 'first'
+--graph			  STR		Order of transaction graphs(first, second).			    	Default is 'first'
 --embedding		STR		Embedding algorithms(Feather-G, Graph2Vec, GL2Vec).		Default is 'Feather-G'.
---classifier	STR		Classifier(SVM, MLP, RF).								Default is 'RF'.
+--classifier	STR		Classifier(SVM, MLP, RF).								              Default is 'RF'.
 ```
 
 ### Example
