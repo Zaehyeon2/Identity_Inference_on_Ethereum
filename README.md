@@ -22,6 +22,7 @@ scikit-learn  0.23.2
 We collect data from XBlock, which is one of the blockchain data platforms in the academic community. XBlock is a data sets sharing platform designed to facilitate the development of blockchain research. We use a second-order transaction network of phishing nodes dataset in XBlock transaction-dataset. This dataset contains 1,660 verified phishing addresses reported in the list before October 17th, 2019, and randomly chosen 1,700 normal addresses. According to the list of the addresses, they crawled the transaction network of each address using the API provided by Etherscan. The transaction network consists of the first-order transaction network that consists of transactions between the target address and their neighbors and the second-order transaction network that consists of transactions between the first-order network and their neighbors. Each transaction contains sender, receiver, amount of transaction value, and timestamp of the transaction.
 
 The datasets are available in [[here]](http://xblock.pro/tx/).
+The Second-order graphs data is [[here]](https://drive.google.com/file/d/1dveH-1ld8ptX9Y2u7FerlH9Q6scnDIob/view?usp=sharing).
 
 ```
 $ python make_graph/make_graph.py # make first-order transaction graph
